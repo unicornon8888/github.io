@@ -1,25 +1,388 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sentinel Arms International | Global Defense Trade Solutions</title>
-    <meta name="description" content="Sentinel Arms International - Premier defense trade company specializing in ammunition, firearms, UAV systems, tactical equipment, and robotics. Serving clients across the Middle East, Africa, and beyond since 2018." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Source+Sans+3:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 2L8 8V20C8 28 20 36 20 36C20 36 32 28 32 20V8L20 2Z" stroke="#D4AF37" stroke-width="1.5" fill="none"/>
+                    <text x="20" y="24" text-anchor="middle" font-size="14" font-weight="bold" fill="#D4AF37">S</text>
+                </svg>
+                <div class="company-name">
+                    <div class="company-title">SENTINEL ARMS</div>
+                    <div class="company-subtitle">INTERNATIONAL</div>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">ABOUT</a>
+                <a href="#products" class="nav-link">PRODUCTS</a>
+                <a href="#philosophy" class="nav-link">PHILOSOPHY</a>
+                <a href="#contact" class="nav-link">CONTACT</a>
+                <a href="#contact" class="cta-button">GET IN TOUCH</a>
+            </div>
+        </div>
+    </nav>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-    <script
-      defer
-      src="%VITE_ANALYTICS_ENDPOINT%/umami"
-      data-website-id="%VITE_ANALYTICS_WEBSITE_ID%"></script>
-  </body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">GLOBAL DEFENSE<br><span class="accent">TRADE SOLUTIONS</span></h1>
+            <p class="hero-subtitle">Delivering advanced defense products and integrated military solutions to sovereign nations across the Middle East, Africa, and Latin America.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})">VIEW PRODUCTS</button>
+                <button class="btn btn-secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">CONTACT US</button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">8+</div>
+                    <div class="stat-label">YEARS OF EXPERIENCE</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">COUNTRIES SERVED</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">7+</div>
+                    <div class="stat-label">PRODUCT CATEGORIES</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">COMPANY PROFILE</h2>
+            <h3 class="section-subtitle">About Sentinel Arms</h3>
+            <p class="section-description">
+                Founded in 2018 and headquartered in Hong Kong, Sentinel Arms International has rapidly established itself as a trusted partner in the global defense trade sector. With a steadfast commitment to integrity, compliance, and long-term partnerships, we serve sovereign nations and defense organizations worldwide.
+            </p>
+            <p class="section-description">
+                Our primary areas of operation span the Middle East and Africa, where we have built enduring relationships with government defense agencies and leading defense corporations. From ammunition and firearms to cutting-edge UAV systems and robotic platforms, we deliver comprehensive defense solutions tailored to each client's operational requirements.
+            </p>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">2018</div>
+                    <div class="timeline-text">Company established in Hong Kong</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2020</div>
+                    <div class="timeline-text">Expanded to Middle East markets</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2022</div>
+                    <div class="timeline-text">UAV & Robotics division launched</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2024</div>
+                    <div class="timeline-text">Operations in 15+ countries</div>
+                </div>
+            </div>
+
+            <h3 class="partners-title">STRATEGIC PARTNERS</h3>
+            <div class="partners-grid">
+                <div class="partner-card">
+                    <div class="partner-logo">E</div>
+                    <div class="partner-name">EDGE Group</div>
+                    <div class="partner-country">UAE</div>
+                </div>
+                <div class="partner-card">
+                    <div class="partner-logo">A</div>
+                    <div class="partner-name">Azersilah</div>
+                    <div class="partner-country">Azerbaijan</div>
+                </div>
+                <div class="partner-card">
+                    <div class="partner-logo">T</div>
+                    <div class="partner-name">Turkish Defense Industries</div>
+                    <div class="partner-country">Turkey</div>
+                </div>
+            </div>
+
+            <h3 class="countries-title">COUNTRIES SERVED</h3>
+            <div class="countries-grid">
+                <div class="country-flag">🇦🇪 UAE</div>
+                <div class="country-flag">🇸🇦 Saudi Arabia</div>
+                <div class="country-flag">🇦🇿 Azerbaijan</div>
+                <div class="country-flag">🇹🇷 Turkey</div>
+                <div class="country-flag">🇾🇪 Yemen</div>
+                <div class="country-flag">🇪🇹 Ethiopia</div>
+                <div class="country-flag">🇹🇩 Chad</div>
+                <div class="country-flag">🇨🇩 DR Congo</div>
+                <div class="country-flag">🇳🇬 Nigeria</div>
+                <div class="country-flag">🇨🇴 Colombia</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">DEFENSE CATALOG</h2>
+            <h3 class="section-subtitle">Products & Services</h3>
+
+            <div class="product-tabs">
+                <button class="tab-btn active" onclick="switchTab('ammunition')">AMMUNITION</button>
+                <button class="tab-btn" onclick="switchTab('firearms')">FIREARMS</button>
+                <button class="tab-btn" onclick="switchTab('explosives')">EXPLOSIVES</button>
+                <button class="tab-btn" onclick="switchTab('uav')">UAV SYSTEMS</button>
+                <button class="tab-btn" onclick="switchTab('robotics')">ROBOTICS</button>
+                <button class="tab-btn" onclick="switchTab('tactical')">TACTICAL GEAR</button>
+            </div>
+
+            <!-- Ammunition Tab -->
+            <div id="ammunition" class="tab-content active">
+                <p class="tab-description">Full range of military-grade ammunition from standard infantry calibers to heavy anti-materiel rounds, manufactured to NATO and GOST specifications.</p>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-name">7.62×39mm</div>
+                        <div class="product-specs">Velocity: 710-725 m/s | Length: 56mm</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-name">7.62×54mm</div>
+                        <div class="product-specs">Velocity: 800-855 m/s | Length: 77.16mm</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-name">12.7mm API</div>
+                        <div class="product-specs">Velocity: 770-785 m/s | Armor-Piercing Incendiary</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-name">14.5×114mm</div>
+                        <div class="product-specs">Velocity: 1006 m/s | Anti-Materiel</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-name">23mm</div>
+                        <div class="product-specs">Anti-Aircraft / Vehicle-Mounted Systems</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Firearms Tab -->
+            <div id="firearms" class="tab-content">
+                <p class="tab-description">Precision-engineered firearms and small arms systems, including assault rifles, machine guns, and specialized weapons platforms.</p>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-name">AK-47</div>
+                        <div class="product-specs">Caliber: 7.62×39mm | Effective Range: 300m</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-name">PKM</div>
+                        <div class="product-specs">Caliber: 7.62×54mm | Rate of Fire: 650 rpm</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-name">Dshka</div>
+                        <div class="product-specs">Caliber: 12.7mm | Heavy Machine Gun</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Explosives Tab -->
+            <div id="explosives" class="tab-content">
+                <p class="tab-description">Specialized explosive systems and ordnance for military and commercial applications.</p>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-name">C4</div>
+                        <div class="product-specs">Plastic explosive | Military-grade | High stability</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-name">TNT</div>
+                        <div class="product-specs">Trinitrotoluene | Industrial & Military use</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-name">Civil Fireworks</div>
+                        <div class="product-specs">Commercial pyrotechnics | Safety certified</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UAV Tab -->
+            <div id="uav" class="tab-content">
+                <p class="tab-description">Advanced unmanned aerial systems ranging from small FPV drones to large surveillance platforms.</p>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-name">FPV Drones</div>
+                        <div class="product-specs">7-13 inch | High-speed tactical operations</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-name">Medium UAV</div>
+                        <div class="product-specs">10-50kg payload | Extended endurance</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-name">Large Surveillance UAV</div>
+                        <div class="product-specs">100-150kg | Long-range reconnaissance</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-name">CH-5 Platform</div>
+                        <div class="product-specs">JOUAV CW-40D | Advanced surveillance system</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Robotics Tab -->
+            <div id="robotics" class="tab-content">
+                <p class="tab-description">Autonomous robotic systems for reconnaissance, logistics, and tactical operations.</p>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-name">LYNX M20</div>
+                        <div class="product-specs">Quadruped robot | Terrain adaptability | AI-powered</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-name">Unmanned Ground Vehicle</div>
+                        <div class="product-specs">Armed platform | Remote operation | Modular payload</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-name">Autonomous Logistics</div>
+                        <div class="product-specs">Supply transport | Autonomous navigation</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tactical Gear Tab -->
+            <div id="tactical" class="tab-content">
+                <p class="tab-description">Comprehensive tactical equipment for military personnel and special operations forces.</p>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-name">Body Armor</div>
+                        <div class="product-specs">Ballistic protection | Multiple threat levels</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-name">Load-Bearing Systems</div>
+                        <div class="product-specs">Modular design | Ergonomic weight distribution</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-name">Communication Systems</div>
+                        <div class="product-specs">Tactical radios | Encrypted networks</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-name">Night Vision Equipment</div>
+                        <div class="product-specs">Gen 3+ technology | Extended range</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section id="philosophy" class="philosophy">
+        <div class="container">
+            <h2 class="section-title">OUR PHILOSOPHY</h2>
+            <h3 class="section-subtitle">Mission & Values</h3>
+            <p class="philosophy-quote">"Experience the future of innovation with our revolutionary product, where cutting-edge technology meets unparalleled performance."</p>
+
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">⚡</div>
+                    <div class="value-title">Advanced Technology Export</div>
+                    <div class="value-description">We are committed to delivering cutting-edge defense technology products to the global market, bridging the gap between innovation and operational deployment.</div>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🤝</div>
+                    <div class="value-title">Integrity & Long-Term Partnership</div>
+                    <div class="value-description">Our business philosophy is rooted in honesty, transparency, and mutual respect. We build enduring relationships through consistent reliability.</div>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">⚖️</div>
+                    <div class="value-title">International Compliance</div>
+                    <div class="value-description">We strictly adhere to the United Nations Arms Trade Treaty (ATT) and all applicable international regulations governing defense trade.</div>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🌍</div>
+                    <div class="value-title">Responsible Defense Trade</div>
+                    <div class="value-description">As a responsible participant in the international defense industry, we recognize our obligation to contribute to global security and stability.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">GET IN TOUCH</h2>
+            <h3 class="section-subtitle">Contact Us</h3>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h4>CONTACT PERSON</h4>
+                    <p>Alex Wang</p>
+
+                    <h4>WHATSAPP</h4>
+                    <p><a href="https://wa.me/8613982226936">+86 139 8222 6936</a></p>
+
+                    <h4>EMAIL</h4>
+                    <p><a href="mailto:unicornon@hotmail.com">unicornon@hotmail.com</a></p>
+
+                    <h4>REGISTERED OFFICE</h4>
+                    <p>137-139 Connaught Road Central,<br>Sheung Wan, Hong Kong SAR, China</p>
+
+                    <h4>SCAN TO CONTACT ON WHATSAPP</h4>
+                    <div class="qr-code">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='white' width='200' height='200'/%3E%3Crect fill='black' x='10' y='10' width='180' height='180'/%3E%3C/svg%3E" alt="WhatsApp QR Code" style="width: 150px; height: 150px;">
+                    </div>
+                </div>
+
+                <div class="quote-form">
+                    <h4>REQUEST A QUOTE</h4>
+                    <p>Submit your product requirements below. Our team will review your request and provide a quotation within 24 hours.</p>
+                    <form id="quoteForm">
+                        <input type="text" placeholder="Your Company" required>
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="email@example.com" required>
+                        <input type="tel" placeholder="+1 (555) 000-0000">
+                        <input type="text" placeholder="Country Name" required>
+                        <select required>
+                            <option value="">Select a category</option>
+                            <option value="ammunition">Ammunition</option>
+                            <option value="firearms">Firearms</option>
+                            <option value="explosives">Explosives</option>
+                            <option value="uav">UAV Systems</option>
+                            <option value="robotics">Robotics</option>
+                            <option value="tactical">Tactical Gear</option>
+                        </select>
+                        <input type="text" placeholder="e.g., 1000 units, 50 systems">
+                        <textarea placeholder="Describe your specific requirements, technical specifications, delivery timeline..." rows="5"></textarea>
+                        <button type="submit" class="btn btn-primary">SEND QUOTE REQUEST</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ABOUT</h4>
+                    <p>Sentinel Arms International is a leading global defense trade solutions provider.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>QUICK LINKS</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#philosophy">Philosophy</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>CONTACT</h4>
+                    <p>WhatsApp: +86 139 8222 6936<br>Email: unicornon@hotmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sentinel Arms International. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
 </html>
